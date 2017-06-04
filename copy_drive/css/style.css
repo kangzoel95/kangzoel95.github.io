@@ -1,4 +1,12 @@
+html {
+  display: table;
+  width: 100%;
+  min-height: 100%;
+}
 body {
   margin:0;
   font: 400 14px segoe ui, arial, helvetica, sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
